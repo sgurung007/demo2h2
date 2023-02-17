@@ -13,8 +13,8 @@ jib {
     to {
         image = 'sgrg007/h2demo1:2.0.0'
         auth{
-            username = 'sgrg007'
-            password = 'RamPrajapati'
+            username = DOCKER_USERNAME
+            password = DOCKER_PASSWORD
         }
     }
 }
