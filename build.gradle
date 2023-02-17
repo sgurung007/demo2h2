@@ -11,10 +11,10 @@ jib {
         image = 'openjdk:17-jdk-slim-buster'
     }
     to {
-        image = 'sgrg007/h2demo1:2.0.0'
+        image = 'sgrg007/h2demo1:3.0.0'
         auth{
-            username = DOCKER_USERNAME
-            password = DOCKER_PASSWORD
+            username = '$DOCKER_USERNAME'
+            password = '$DOCKER_PASSWORD'
         }
     }
 }
