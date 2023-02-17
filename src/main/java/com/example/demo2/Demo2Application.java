@@ -16,7 +16,7 @@ public class Demo2Application implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args){
         Product product1 = Product.builder().name("name1").price(1L).build();
         reposiory.save(product1);
         Product product2 = Product.builder().name("name1").price(1L).build();
